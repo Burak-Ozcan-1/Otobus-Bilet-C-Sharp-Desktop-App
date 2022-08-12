@@ -1,0 +1,118 @@
+B:\Bilet\Bilet\bin\Debug\Bilet.exe.config
+B:\Bilet\Bilet\bin\Debug\Bilet.exe
+B:\Bilet\Bilet\bin\Debug\Bilet.pdb
+B:\Bilet\Bilet\obj\Debug\Bilet.csprojResolveAssemblyReference.cache
+B:\Bilet\Bilet\obj\Debug\Bilet.giris.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Properties.Resources.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.csproj.GenerateResource.Cache
+B:\Bilet\Bilet\obj\Debug\Bilet.exe
+B:\Bilet\Bilet\obj\Debug\Bilet.pdb
+B:\Bilet\Bilet\obj\Debug\Bilet.Guzergah.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Sefer.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Otobus.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Personel.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Tesis.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Indirim.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Ayarlar.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.Bilet_Sat.resources
+B:\Bilet\Bilet\obj\Debug\Bilet.BayBiletSat.resources
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\Bilet.exe.config
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.exe
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.pdb
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\Bilet.exe
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\Bilet.pdb
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.csprojResolveAssemblyReference.cache
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Ayarlar.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Bilet_Sat.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Properties.Resources.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.csproj.GenerateResource.Cache
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.GuzergahEkle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.IndirimEkle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.OtobusEkle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.PersonelEkle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.SeferEkle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\EntityFramework.dll
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\EntityFramework.xml
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Menu.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.AraYolEkle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Tesisekle.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.KullaniciIslemleri.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.login.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.SifreDegistir.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.BayBayanBiletSat.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.BayBayanRezervasyon.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Uyelik.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.BayBayanBiletDüzeltme.resources
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.csproj.ResolveComReference.cache
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\Ionic.Zip.dll
+C:\Users\burak\Desktop\Bilet\Bilet\bin\Debug\Ionic.Zip.xml
+C:\Users\burak\Desktop\Bilet\Bilet\obj\Debug\Bilet.Hesap.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Bilet.exe.config
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Bilet.exe
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Bilet.pdb
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.dll
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.SqlServer.dll
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Ionic.Zip.dll
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.xml
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.SqlServer.xml
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Ionic.Zip.xml
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.csprojResolveAssemblyReference.cache
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.csproj.ResolveComReference.cache
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.AraYolEkle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Ayarlar.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.BayBayanBiletDüzeltme.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.BayBayanBiletSat.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.BayBayanRezervasyon.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Bilet_Sat.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Hesap.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.KullaniciIslemleri.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.login.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Menu.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.GuzergahEkle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.IndirimEkle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.OtobusEkle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.PersonelEkle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Properties.Resources.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.SeferEkle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.SifreDegistir.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Tesisekle.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Uyelik.resources
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.csproj.GenerateResource.Cache
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.exe
+G:\Bilgisayar Dosyaları 11.10.2017\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.pdb
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Bilet.exe.config
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.csproj.ResolveComReference.cache
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.exe
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.pdb
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Otobus_Bilet.mdf
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Otobus_Bilet_log.ldf
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.dll
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.SqlServer.dll
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Ionic.Zip.dll
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.xml
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\EntityFramework.SqlServer.xml
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Ionic.Zip.xml
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.AraYolEkle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Ayarlar.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.BayBayanBiletDüzeltme.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.BayBayanBiletSat.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.BayBayanRezervasyon.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Bilet_Sat.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Hesap.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.KullaniciIslemleri.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.login.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Menu.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.GuzergahEkle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.IndirimEkle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.OtobusEkle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.PersonelEkle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Properties.Resources.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.SeferEkle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.SifreDegistir.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Tesisekle.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.Uyelik.resources
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\obj\Debug\Bilet.csproj.GenerateResource.Cache
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Bilet.exe
+D:\Otobüs Bilet\Kaynak_Dosyalar\Bilet\Bilet\bin\Debug\Bilet.pdb

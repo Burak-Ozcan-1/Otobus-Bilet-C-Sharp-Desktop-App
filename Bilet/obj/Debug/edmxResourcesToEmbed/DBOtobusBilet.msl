@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Otobus_BiletModel_StoreContainer" CdmEntityContainer="Otobus_BiletEntities_">
+    <EntitySetMapping Name="Bilet">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Bilet">
+        <MappingFragment StoreEntitySet="Bilet">
+          <ScalarProperty Name="bilet_id" ColumnName="bilet_id" />
+          <ScalarProperty Name="koltuk_no" ColumnName="koltuk_no" />
+          <ScalarProperty Name="yolcu_id" ColumnName="yolcu_id" />
+          <ScalarProperty Name="sefer_id" ColumnName="sefer_id" />
+          <ScalarProperty Name="indirim_id" ColumnName="indirim_id" />
+          <ScalarProperty Name="bilet_kesen_personel_id" ColumnName="bilet_kesen_personel_id" />
+          <ScalarProperty Name="islem_kod" ColumnName="islem_kod" />
+          <ScalarProperty Name="kalkis" ColumnName="kalkis" />
+          <ScalarProperty Name="varis" ColumnName="varis" />
+          <ScalarProperty Name="satis_tarihi" ColumnName="satis_tarihi" />
+          <ScalarProperty Name="tutar" ColumnName="tutar" />
+          <ScalarProperty Name="rezerve" ColumnName="rezerve" />
+          <ScalarProperty Name="online" ColumnName="online" />
+          <ScalarProperty Name="iptal" ColumnName="iptal" />
+          <ScalarProperty Name="cikti_alindi" ColumnName="cikti_alindi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guzergah">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Guzergah">
+        <MappingFragment StoreEntitySet="Guzergah">
+          <ScalarProperty Name="guzergah_id" ColumnName="guzergah_id" />
+          <ScalarProperty Name="kalkis_yeri" ColumnName="kalkis_yeri" />
+          <ScalarProperty Name="varis_yeri" ColumnName="varis_yeri" />
+          <ScalarProperty Name="km" ColumnName="km" />
+          <ScalarProperty Name="tahmini_sure" ColumnName="tahmini_sure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guzergah_Arayol">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Guzergah_Arayol">
+        <MappingFragment StoreEntitySet="Guzergah_Arayol">
+          <ScalarProperty Name="guzergah_arayol_id" ColumnName="guzergah_arayol_id" />
+          <ScalarProperty Name="guzergah_id" ColumnName="guzergah_id" />
+          <ScalarProperty Name="kontenjan" ColumnName="kontenjan" />
+          <ScalarProperty Name="ucret" ColumnName="ucret" />
+          <ScalarProperty Name="arayol" ColumnName="arayol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guzergah_Tesis">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Guzergah_Tesis">
+        <MappingFragment StoreEntitySet="Guzergah_Tesis">
+          <ScalarProperty Name="guzergah_tesis_id" ColumnName="guzergah_tesis_id" />
+          <ScalarProperty Name="tesis_id" ColumnName="tesis_id" />
+          <ScalarProperty Name="guzergah_id" ColumnName="guzergah_id" />
+          <ScalarProperty Name="mola_suresi" ColumnName="mola_suresi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ILLER_MESAFE">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.ILLER_MESAFE">
+        <MappingFragment StoreEntitySet="ILLER_MESAFE">
+          <ScalarProperty Name="IL_ADI" ColumnName="IL_ADI" />
+          <ScalarProperty Name="ADANA" ColumnName="ADANA" />
+          <ScalarProperty Name="ADIYAMAN" ColumnName="ADIYAMAN" />
+          <ScalarProperty Name="AFYON" ColumnName="AFYON" />
+          <ScalarProperty Name="AĞRI" ColumnName="AĞRI" />
+          <ScalarProperty Name="AMASYA" ColumnName="AMASYA" />
+          <ScalarProperty Name="ANKARA" ColumnName="ANKARA" />
+          <ScalarProperty Name="ANTALYA" ColumnName="ANTALYA" />
+          <ScalarProperty Name="ARTVİN" ColumnName="ARTVİN" />
+          <ScalarProperty Name="AYDIN" ColumnName="AYDIN" />
+          <ScalarProperty Name="BALIKESİR" ColumnName="BALIKESİR" />
+          <ScalarProperty Name="BİLECİK" ColumnName="BİLECİK" />
+          <ScalarProperty Name="BİNGÖL" ColumnName="BİNGÖL" />
+          <ScalarProperty Name="BİTLİS" ColumnName="BİTLİS" />
+          <ScalarProperty Name="BOLU" ColumnName="BOLU" />
+          <ScalarProperty Name="BURDUR" ColumnName="BURDUR" />
+          <ScalarProperty Name="BURSA" ColumnName="BURSA" />
+          <ScalarProperty Name="ÇANAKKALE" ColumnName="ÇANAKKALE" />
+          <ScalarProperty Name="ÇANKIRI" ColumnName="ÇANKIRI" />
+          <ScalarProperty Name="ÇORUM" ColumnName="ÇORUM" />
+          <ScalarProperty Name="DENİZLİ" ColumnName="DENİZLİ" />
+          <ScalarProperty Name="DİYARBAKIR" ColumnName="DİYARBAKIR" />
+          <ScalarProperty Name="EDİRNE" ColumnName="EDİRNE" />
+          <ScalarProperty Name="ELAZIĞ" ColumnName="ELAZIĞ" />
+          <ScalarProperty Name="ERZİNCAN" ColumnName="ERZİNCAN" />
+          <ScalarProperty Name="ERZURUM" ColumnName="ERZURUM" />
+          <ScalarProperty Name="ESKİŞEHİR" ColumnName="ESKİŞEHİR" />
+          <ScalarProperty Name="GAZİANTEP" ColumnName="GAZİANTEP" />
+          <ScalarProperty Name="GİRESUN" ColumnName="GİRESUN" />
+          <ScalarProperty Name="GÜMÜŞHANE" ColumnName="GÜMÜŞHANE" />
+          <ScalarProperty Name="HAKKARİ" ColumnName="HAKKARİ" />
+          <ScalarProperty Name="HATAY" ColumnName="HATAY" />
+          <ScalarProperty Name="ISPARTA" ColumnName="ISPARTA" />
+          <ScalarProperty Name="İÇEL" ColumnName="İÇEL" />
+          <ScalarProperty Name="İSTANBUL" ColumnName="İSTANBUL" />
+          <ScalarProperty Name="İZMİR" ColumnName="İZMİR" />
+          <ScalarProperty Name="KARS" ColumnName="KARS" />
+          <ScalarProperty Name="KASTAMONU" ColumnName="KASTAMONU" />
+          <ScalarProperty Name="KAYSERİ" ColumnName="KAYSERİ" />
+          <ScalarProperty Name="KIRKLARELİ" ColumnName="KIRKLARELİ" />
+          <ScalarProperty Name="KIRŞEHİR" ColumnName="KIRŞEHİR" />
+          <ScalarProperty Name="KOCAELİ" ColumnName="KOCAELİ" />
+          <ScalarProperty Name="KONYA" ColumnName="KONYA" />
+          <ScalarProperty Name="KÜTAHYA" ColumnName="KÜTAHYA" />
+          <ScalarProperty Name="MALATYA" ColumnName="MALATYA" />
+          <ScalarProperty Name="MANİSA" ColumnName="MANİSA" />
+          <ScalarProperty Name="KAHRAMANMARAŞ" ColumnName="KAHRAMANMARAŞ" />
+          <ScalarProperty Name="MARDİN" ColumnName="MARDİN" />
+          <ScalarProperty Name="MUĞLA" ColumnName="MUĞLA" />
+          <ScalarProperty Name="MUŞ" ColumnName="MUŞ" />
+          <ScalarProperty Name="NEVŞEHİR" ColumnName="NEVŞEHİR" />
+          <ScalarProperty Name="NİĞDE" ColumnName="NİĞDE" />
+          <ScalarProperty Name="ORDU" ColumnName="ORDU" />
+          <ScalarProperty Name="RİZE" ColumnName="RİZE" />
+          <ScalarProperty Name="SAKARYA" ColumnName="SAKARYA" />
+          <ScalarProperty Name="SAMSUN" ColumnName="SAMSUN" />
+          <ScalarProperty Name="SİİRT" ColumnName="SİİRT" />
+          <ScalarProperty Name="SİNOP" ColumnName="SİNOP" />
+          <ScalarProperty Name="SİVAS" ColumnName="SİVAS" />
+          <ScalarProperty Name="TEKİRDAĞ" ColumnName="TEKİRDAĞ" />
+          <ScalarProperty Name="TOKAT" ColumnName="TOKAT" />
+          <ScalarProperty Name="TRABZON" ColumnName="TRABZON" />
+          <ScalarProperty Name="TUNCELİ" ColumnName="TUNCELİ" />
+          <ScalarProperty Name="ŞANLIURFA" ColumnName="ŞANLIURFA" />
+          <ScalarProperty Name="UŞAK" ColumnName="UŞAK" />
+          <ScalarProperty Name="VAN" ColumnName="VAN" />
+          <ScalarProperty Name="YOZGAT" ColumnName="YOZGAT" />
+          <ScalarProperty Name="ZONGULDAK" ColumnName="ZONGULDAK" />
+          <ScalarProperty Name="AKSARAY" ColumnName="AKSARAY" />
+          <ScalarProperty Name="BAYBURT" ColumnName="BAYBURT" />
+          <ScalarProperty Name="KARAMAN" ColumnName="KARAMAN" />
+          <ScalarProperty Name="KIRIKKALE" ColumnName="KIRIKKALE" />
+          <ScalarProperty Name="BATMAN" ColumnName="BATMAN" />
+          <ScalarProperty Name="ŞIRNAK" ColumnName="ŞIRNAK" />
+          <ScalarProperty Name="BARTIN" ColumnName="BARTIN" />
+          <ScalarProperty Name="ARDAHAN" ColumnName="ARDAHAN" />
+          <ScalarProperty Name="IĞDIR" ColumnName="IĞDIR" />
+          <ScalarProperty Name="YALOVA" ColumnName="YALOVA" />
+          <ScalarProperty Name="KARABÜK" ColumnName="KARABÜK" />
+          <ScalarProperty Name="KİLİS" ColumnName="KİLİS" />
+          <ScalarProperty Name="OSMANİYE" ColumnName="OSMANİYE" />
+          <ScalarProperty Name="DÜZCE" ColumnName="DÜZCE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Indirim_Artis">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Indirim_Artis">
+        <MappingFragment StoreEntitySet="Indirim_Artis">
+          <ScalarProperty Name="indirim_artis_id" ColumnName="indirim_artis_id" />
+          <ScalarProperty Name="indirim_artis_adi" ColumnName="indirim_artis_adi" />
+          <ScalarProperty Name="indirim_artis_orani" ColumnName="indirim_artis_orani" />
+          <ScalarProperty Name="indirim_artis_tutari" ColumnName="indirim_artis_tutari" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ilceler">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.ilceler">
+        <MappingFragment StoreEntitySet="ilceler">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iller">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.iller">
+        <MappingFragment StoreEntitySet="iller">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kodlar">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Kodlar">
+        <MappingFragment StoreEntitySet="Kodlar">
+          <ScalarProperty Name="kod_id" ColumnName="kod_id" />
+          <ScalarProperty Name="ust_kod_id" ColumnName="ust_kod_id" />
+          <ScalarProperty Name="kod_adi" ColumnName="kod_adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kredi_Karti">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Kredi_Karti">
+        <MappingFragment StoreEntitySet="Kredi_Karti">
+          <ScalarProperty Name="kredi_karti_id" ColumnName="kredi_karti_id" />
+          <ScalarProperty Name="bilet_id" ColumnName="bilet_id" />
+          <ScalarProperty Name="kart_no" ColumnName="kart_no" />
+          <ScalarProperty Name="kart_sahibi_adi_soyadi" ColumnName="kart_sahibi_adi_soyadi" />
+          <ScalarProperty Name="son_kullanma_tarihi" ColumnName="son_kullanma_tarihi" />
+          <ScalarProperty Name="guvenlik_kodu" ColumnName="guvenlik_kodu" />
+          <ScalarProperty Name="islem_tarih" ColumnName="islem_tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="kullanici_id" ColumnName="kullanici_id" />
+          <ScalarProperty Name="kullanici_adi" ColumnName="kullanici_adi" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="personel_id" ColumnName="personel_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otobus">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Otobus">
+        <MappingFragment StoreEntitySet="Otobus">
+          <ScalarProperty Name="otobus_id" ColumnName="otobus_id" />
+          <ScalarProperty Name="marka_kod" ColumnName="marka_kod" />
+          <ScalarProperty Name="model_kod" ColumnName="model_kod" />
+          <ScalarProperty Name="koltuk_sayisi" ColumnName="koltuk_sayisi" />
+          <ScalarProperty Name="koltuk_tipi" ColumnName="koltuk_tipi" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otobus_Detay">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Otobus_Detay">
+        <MappingFragment StoreEntitySet="Otobus_Detay">
+          <ScalarProperty Name="otobus_detay_id" ColumnName="otobus_detay_id" />
+          <ScalarProperty Name="otobus_id" ColumnName="otobus_id" />
+          <ScalarProperty Name="sofor_1_personel_id" ColumnName="sofor_1_personel_id" />
+          <ScalarProperty Name="sofor_2_personel_id" ColumnName="sofor_2_personel_id" />
+          <ScalarProperty Name="muavin_id" ColumnName="muavin_id" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+          <ScalarProperty Name="saat" ColumnName="saat" />
+          <ScalarProperty Name="guzergah_id" ColumnName="guzergah_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Otobus_Ozellik">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Otobus_Ozellik">
+        <MappingFragment StoreEntitySet="Otobus_Ozellik">
+          <ScalarProperty Name="otobus_ozellik_id" ColumnName="otobus_ozellik_id" />
+          <ScalarProperty Name="ozellik_kod" ColumnName="ozellik_kod" />
+          <ScalarProperty Name="otobus_id" ColumnName="otobus_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametre">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Parametre">
+        <MappingFragment StoreEntitySet="Parametre">
+          <ScalarProperty Name="parametre_id" ColumnName="parametre_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personel">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Personel">
+        <MappingFragment StoreEntitySet="Personel">
+          <ScalarProperty Name="personel_id" ColumnName="personel_id" />
+          <ScalarProperty Name="adi" ColumnName="adi" />
+          <ScalarProperty Name="soyadi" ColumnName="soyadi" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+          <ScalarProperty Name="bolum_kod" ColumnName="bolum_kod" />
+          <ScalarProperty Name="gorev_kod" ColumnName="gorev_kod" />
+          <ScalarProperty Name="cinsiyet_kod" ColumnName="cinsiyet_kod" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="adresi" ColumnName="adresi" />
+          <ScalarProperty Name="yer_kod" ColumnName="yer_kod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rezerve">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Rezerve">
+        <MappingFragment StoreEntitySet="Rezerve">
+          <ScalarProperty Name="rezerve_id" ColumnName="rezerve_id" />
+          <ScalarProperty Name="rezerve_tarihi" ColumnName="rezerve_tarihi" />
+          <ScalarProperty Name="rezerve_kod" ColumnName="rezerve_kod" />
+          <ScalarProperty Name="sefer_id" ColumnName="sefer_id" />
+          <ScalarProperty Name="rezerve_eden_kisi_id" ColumnName="rezerve_eden_kisi_id" />
+          <ScalarProperty Name="Koltuk_No" ColumnName="Koltuk_No" />
+          <ScalarProperty Name="yolcu_id" ColumnName="yolcu_id" />
+          <ScalarProperty Name="kalkis" ColumnName="kalkis" />
+          <ScalarProperty Name="varis" ColumnName="varis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rol_Servis">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Rol_Servis">
+        <MappingFragment StoreEntitySet="Rol_Servis">
+          <ScalarProperty Name="rol_servis_id" ColumnName="rol_servis_id" />
+          <ScalarProperty Name="rol_id" ColumnName="rol_id" />
+          <ScalarProperty Name="servis_id" ColumnName="servis_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roller">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Roller">
+        <MappingFragment StoreEntitySet="Roller">
+          <ScalarProperty Name="rol_id" ColumnName="rol_id" />
+          <ScalarProperty Name="rol_adi" ColumnName="rol_adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sefer">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Sefer">
+        <MappingFragment StoreEntitySet="Sefer">
+          <ScalarProperty Name="sefer_id" ColumnName="sefer_id" />
+          <ScalarProperty Name="kalkis_saat" ColumnName="kalkis_saat" />
+          <ScalarProperty Name="guzergah_id" ColumnName="guzergah_id" />
+          <ScalarProperty Name="kalkis_tarihi" ColumnName="kalkis_tarihi" />
+          <ScalarProperty Name="ucret" ColumnName="ucret" />
+          <ScalarProperty Name="otobus_id" ColumnName="otobus_id" />
+          <ScalarProperty Name="peron_no" ColumnName="peron_no" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sefer_Arayol">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Sefer_Arayol">
+        <MappingFragment StoreEntitySet="Sefer_Arayol">
+          <ScalarProperty Name="sefer_arayol_id" ColumnName="sefer_arayol_id" />
+          <ScalarProperty Name="guzergah_arayol_id" ColumnName="guzergah_arayol_id" />
+          <ScalarProperty Name="sefer_id" ColumnName="sefer_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servis">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Servis">
+        <MappingFragment StoreEntitySet="Servis">
+          <ScalarProperty Name="Servis_id" ColumnName="Servis_id" />
+          <ScalarProperty Name="adi" ColumnName="adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tesis">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Tesis">
+        <MappingFragment StoreEntitySet="Tesis">
+          <ScalarProperty Name="tesis_id" ColumnName="tesis_id" />
+          <ScalarProperty Name="adi" ColumnName="adi" />
+          <ScalarProperty Name="adresi" ColumnName="adresi" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yolcu">
+      <EntityTypeMapping TypeName="Otobus_BiletModel_.Yolcu">
+        <MappingFragment StoreEntitySet="Yolcu">
+          <ScalarProperty Name="yolcu_id" ColumnName="yolcu_id" />
+          <ScalarProperty Name="adi_soyadi" ColumnName="adi_soyadi" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="uyemi" ColumnName="uyemi" />
+          <ScalarProperty Name="e_posta" ColumnName="e_posta" />
+          <ScalarProperty Name="cinsiyet_kod" ColumnName="cinsiyet_kod" />
+          <ScalarProperty Name="TC" ColumnName="TC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

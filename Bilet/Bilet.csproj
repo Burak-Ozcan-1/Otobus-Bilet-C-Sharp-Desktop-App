@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE7CC99A-093D-4959-9EF4-ED230B737D07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bilet</RootNamespace>
+    <AssemblyName>Bilet</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.8.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.9.8\lib\net20\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AraYolEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraYolEkle.Designer.cs">
+      <DependentUpon>AraYolEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayarlar.Designer.cs">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BayBayanBiletDüzeltme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BayBayanBiletDüzeltme.Designer.cs">
+      <DependentUpon>BayBayanBiletDüzeltme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BayBayanBiletSat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BayBayanBiletSat.Designer.cs">
+      <DependentUpon>BayBayanBiletSat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BayBayanRezervasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BayBayanRezervasyon.Designer.cs">
+      <DependentUpon>BayBayanRezervasyon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bilet.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bilet_Dokum_Islemleri.cs" />
+    <Compile Include="Bilet_Sat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilet_Sat.Designer.cs">
+      <DependentUpon>Bilet_Sat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBOtobusBilet.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBOtobusBilet.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBOtobusBilet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBOtobusBilet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBOtobusBilet.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EKLE.cs" />
+    <Compile Include="FormAc.cs" />
+    <Compile Include="GUNCELLE.cs" />
+    <Compile Include="Guzergah_Arayol.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hesap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hesap.Designer.cs">
+      <DependentUpon>Hesap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ilceler.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="iller.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciIslemleri.Designer.cs">
+      <DependentUpon>KullaniciIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guzergah.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Guzergah_Tesis.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="id_bul.cs" />
+    <Compile Include="ILLER_MESAFE.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Indirim_Artis.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kodlar.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kredi_Karti.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MesajVer.cs" />
+    <Compile Include="Otobus.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtobusEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtobusEkle.Designer.cs">
+      <DependentUpon>OtobusEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otobus_Detay.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Otobus_Ozellik.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametre.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Personel.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelEkle.Designer.cs">
+      <DependentUpon>PersonelEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndirimEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndirimEkle.Designer.cs">
+      <DependentUpon>IndirimEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezerve.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Roller.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rol_Servis.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sefer.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SeferEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeferEkle.Designer.cs">
+      <DependentUpon>SeferEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuzergahEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuzergahEkle.Designer.cs">
+      <DependentUpon>GuzergahEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sefer_Arayol.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Servis.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SifreDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SifreDegistir.Designer.cs">
+      <DependentUpon>SifreDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SİL.cs" />
+    <Compile Include="Tesis.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tesisekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tesisekle.Designer.cs">
+      <DependentUpon>Tesisekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uyelik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uyelik.Designer.cs">
+      <DependentUpon>Uyelik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yolcu.cs">
+      <DependentUpon>DBOtobusBilet.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AraYolEkle.resx">
+      <DependentUpon>AraYolEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayarlar.resx">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BayBayanBiletDüzeltme.resx">
+      <DependentUpon>BayBayanBiletDüzeltme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BayBayanBiletSat.resx">
+      <DependentUpon>BayBayanBiletSat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BayBayanRezervasyon.resx">
+      <DependentUpon>BayBayanRezervasyon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilet_Sat.resx">
+      <DependentUpon>Bilet_Sat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hesap.resx">
+      <DependentUpon>Hesap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciIslemleri.resx">
+      <DependentUpon>KullaniciIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuzergahEkle.resx">
+      <DependentUpon>GuzergahEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndirimEkle.resx">
+      <DependentUpon>IndirimEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtobusEkle.resx">
+      <DependentUpon>OtobusEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelEkle.resx">
+      <DependentUpon>PersonelEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SeferEkle.resx">
+      <DependentUpon>SeferEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SifreDegistir.resx">
+      <DependentUpon>SifreDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tesisekle.resx">
+      <DependentUpon>Tesisekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uyelik.resx">
+      <DependentUpon>Uyelik.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Cıktı\otobus_bileti.docx" />
+    <EntityDeploy Include="DBOtobusBilet.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBOtobusBilet.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DBOtobusBilet.edmx.diagram">
+      <DependentUpon>DBOtobusBilet.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBOtobusBilet.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBOtobusBilet.edmx</DependentUpon>
+      <LastGenOutput>DBOtobusBilet.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DBOtobusBilet.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBOtobusBilet.edmx</DependentUpon>
+      <LastGenOutput>DBOtobusBilet.cs</LastGenOutput>
+    </Content>
+    <Content Include="Otobus_Bilet.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Otobus_Bilet_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Otobus_Bilet.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resimler\gule_gule.jpg" />
+    <Content Include="Resimler\men_internet.png" />
+    <Content Include="Resimler\men_rezervasyon.png" />
+    <Content Include="Resimler\wc.png" />
+    <Content Include="Resimler\bus_PNG8602.png" />
+    <Content Include="Resimler\carpi.png" />
+    <Content Include="Resimler\men.png" />
+    <Content Include="Resimler\priz.png" />
+    <Content Include="Resimler\tv.png" />
+    <Content Include="Resimler\usb_giris.png" />
+    <Content Include="Resimler\women.png" />
+    <Content Include="Resimler\women_internet.png" />
+    <Content Include="Resimler\women_rezervasyon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
